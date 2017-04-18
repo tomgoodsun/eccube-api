@@ -51,7 +51,7 @@ Plugin\EccubeApi\Entity\OAuth2\OpenID\UserInfo:
         nullable: true
     email:
         type: string
-        length: 320
+        length: 255
         nullable: true
     email_verified:
         type: boolean
